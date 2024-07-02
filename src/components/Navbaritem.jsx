@@ -11,7 +11,7 @@ export default function Navbaritem({ title, param }) {
             font-semibold
             ${genre === param ? 'underline underline-offset-8 decoration-pink-400 rounded-lg'
                  : ''}`}
-          href={`/?genre=${param}`}
+                 href={`/${param}`}
         >
           {title}
         </Link>

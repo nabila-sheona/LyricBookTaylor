@@ -13,8 +13,6 @@ export default function Header() {
             <Menuitem title='Home' address="/" Icon={AiFillHome}/>
 
             <Menuitem title='about' address='/about' Icon={BsFillInfoCircleFill}/>
-            
-
             </div>
 
     
